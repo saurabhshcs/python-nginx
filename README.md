@@ -1,4 +1,4 @@
-# react-nginx
+# python-nginx
 This is simple learning project of nginx
 
 <img src="https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/nginx/logo.png" width="150"/> <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="72">    <img src="https://www.python.org/static/img/python-logo@2x.png" width="150"/>    <img src="https://webimages.mongodb.com/_com_assets/cms/kpo5kblefbjq79065-Horizontal_Default.svg?auto=format%252Ccompress" width="150">   <img src="https://www.docker.com/assets/logo-files/Docker-Logo-White-RGB_Horizontal.png" width="150"> 
