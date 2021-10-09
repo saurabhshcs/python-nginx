@@ -67,7 +67,19 @@ services:
     ```
 - Run `app.py` as `python3 app.py`
 
-
+### Docker commands
+- Create a file `Dockerfile` in the `root` directory of the project folder.
+- Build an image simply run command as `docker image build -t python-ngnix .`.
+- Run command to see the image `docker image ls`
+  ```python
+  REPOSITORY                           TAG                                                     IMAGE ID       CREATED          SIZE
+python-nginx-latest                  latest                                                  2452cf61dd6f   16 minutes ago   922MB
+python-nginx                         latest                                                  2452cf61dd6f   16 minutes ago   922MB
+  ```
+- Now, run simply command to see the outcome of the `app.y` using `docker run -p 5001:5000 -d 2452cf61dd6f` 
+- To stop all Docker containers, simply run the following command in your terminal: `docker kill $(docker ps -q)`
+- If you don’t just want to stop containers and you’d like to go a step further and remove them `docker rm $(docker ps -a -q)`
+- To remove all Docker images, run this command `docker rmi $(docker images -q)`
 
 
 
