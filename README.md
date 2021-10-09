@@ -19,7 +19,7 @@ COPY static-html-directory /usr/share/nginx/html
 ```
 Place this file in the same directory as your directory of content ("static-html-directory"), run docker build -t some-content-nginx ., then start your container:
 
-$ docker run --name some-nginx -d some-content-nginx
+`$ docker run --name some-nginx -d some-content-nginx`
 
 
 ### What is MongoDB?
@@ -49,7 +49,7 @@ services:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
       ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
-``
+```
 ### Install & configure Python, pip and Flask
 - Run 'brew install python'
 - then run `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
